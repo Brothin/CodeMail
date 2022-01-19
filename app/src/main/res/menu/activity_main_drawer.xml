@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/inbox"
+        android:icon="@drawable/inbox"
+        android:title="All inboxes" />
+
+
+    <item android:title="RECENT LABELS">
+        <menu>
+        <item
+            android:id="@+id/primary"
+            android:icon="@drawable/primary"
+            android:title="Primary" />
+        <item
+            android:id="@+id/promotion"
+            android:icon="@drawable/promotions"
+            android:title="Promotions" />
+        </menu>
+    </item>
+
+    <item android:title="ALL LABELS">
+        <menu>
+        <item
+            android:id="@+id/starred"
+            android:icon="@drawable/starred"
+            android:title="Starred" />
+        <item
+            android:id="@+id/important"
+            android:icon="@drawable/important"
+            android:title="Important" />
+        <item
+            android:id="@+id/sent"
+            android:icon="@drawable/sent"
+            android:title="Sent" />
+        <item
+            android:id="@+id/outbox"
+            android:icon="@drawable/outbox"
+            android:title="Outbox" />
+        <item
+            android:id="@+id/drafts"
+            android:icon="@drawable/drafts"
+            android:title="Drafts" />
+        <item
+            android:id="@+id/spam"
+            android:icon="@drawable/spam"
+            android:title="Spam" />
+        <item
+            android:id="@+id/bin"
+            android:icon="@drawable/bin"
+            android:title="Bin" />
+        </menu>
+    </item>
+</menu>

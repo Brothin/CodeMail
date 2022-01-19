@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.codemail.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/inbox"
+        android:name="com.example.codemail.ui.inbox"
+        android:label="All inboxes"
+        tools:layout="@layout/inbox_fragment" />
+
+    <fragment
+        android:id="@+id/primary"
+        android:name="com.example.codemail.ui.primary"
+        android:label="Primary"
+        tools:layout="@layout/primary_fragment" />
+
+    <fragment
+        android:id="@+id/promotion"
+        android:name="com.example.codemail.ui.promotion"
+        android:label="Promotions"
+        tools:layout="@layout/promotion_fragment" />
+
+    <fragment
+        android:id="@+id/starred"
+        android:name="com.example.codemail.ui.starred"
+        android:label="Starred"
+        tools:layout="@layout/starred_fragment" />
+
+    <fragment
+        android:id="@+id/important"
+        android:name="com.example.codemail.ui.important"
+        android:label="Important"
+        tools:layout="@layout/important_fragment" />
+
+    <fragment
+        android:id="@+id/sent"
+        android:name="com.example.codemail.ui.sent"
+        android:label="Sent"
+        tools:layout="@layout/sent_fragment" />
+
+    <fragment
+        android:id="@+id/outbox"
+        android:name="com.example.codemail.ui.outbox"
+        android:label="Outbox"
+        tools:layout="@layout/outbox_fragment" />
+
+    <fragment
+        android:id="@+id/drafts"
+        android:name="com.example.codemail.ui.drafts"
+        android:label="Drafts"
+        tools:layout="@layout/drafts_fragment" />
+
+    <fragment
+        android:id="@+id/spam"
+        android:name="com.example.codemail.ui.spam"
+        android:label="Spam"
+        tools:layout="@layout/spam_fragment" />
+
+    <fragment
+        android:id="@+id/bin"
+        android:name="com.example.codemail.ui.bin"
+        android:label="Bin"
+        tools:layout="@layout/bin_fragment" />
+</navigation>
